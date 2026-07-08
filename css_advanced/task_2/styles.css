@@ -12,155 +12,216 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/* ================= HEADER ================= */
+
 .back-img{
+
     min-height:100vh;
-    background-image:linear-gradient(
-        rgba(7,22,41,.45),
-        rgba(7,22,41,.75)
+
+    background:
+    linear-gradient(
+    rgba(7,22,41,.45),
+    rgba(7,22,41,.85)
     ),
     url("./images/background.png");
+
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 
-    display:grid;
-    grid-template-columns:1fr auto;
-    grid-template-areas:
-        "logo nav"
-        "hero hero"
-        "pros pros";
-
     padding:35px 12%;
 }
 
-/* Logo */
+/* ================= NAV ================= */
 
-header > a{
-    grid-area:logo;
-    align-self:start;
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
 }
 
-header > a img{
+nav img{
+
     width:170px;
 }
 
-/* Navigation */
+nav ul{
 
-header ul{
-    grid-area:nav;
-    list-style:none;
     display:flex;
-    gap:40px;
-    justify-self:end;
+
+    list-style:none;
+
+    gap:45px;
 }
 
-header ul li a{
-    text-decoration:none;
+nav ul li a{
+
     color:white;
-    font-size:14px;
-    font-weight:700;
+
+    text-decoration:none;
+
+    font-size:13px;
+
+    font-weight:bold;
+
     transition:.3s;
 }
 
-header ul li a:hover{
+nav ul li a:hover{
+
     color:#C271FF;
 }
 
-/* Hero */
+/* ================= HERO ================= */
 
 .hero-content{
-    grid-area:hero;
+
     display:flex;
+
     flex-direction:column;
-    align-items:center;
+
     justify-content:center;
+
+    align-items:center;
+
     text-align:center;
-    margin-top:80px;
+
+    margin-top:120px;
 }
 
 .hero-content h1{
+
     color:white;
-    font-size:96px;
+
+    font-size:110px;
+
     font-weight:700;
-    margin-bottom:20px;
 }
 
 .hero-content p{
+
     display:flex;
-    gap:50px;
+
+    gap:60px;
+
+    margin-top:20px;
+
     color:white;
+
     font-weight:bold;
+
     letter-spacing:1px;
 }
 
 .hero-content button{
+
     margin-top:35px;
+
     padding:16px 36px;
+
     border:none;
+
     border-radius:30px;
+
     background:#C271FF;
+
     color:white;
+
     font-weight:bold;
+
     cursor:pointer;
-    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+    box-shadow:0 8px 15px rgba(0,0,0,.3);
+
     transition:.3s;
 }
 
 .hero-content button:hover{
+
     background:#a84bf5;
+
     transform:translateY(-2px);
 }
 
-/* Pros */
+/* ================= PROS ================= */
 
 .pros{
-    grid-area:pros;
-    margin-top:120px;
+
+    margin-top:150px;
+
     text-align:center;
 }
 
 .pros h2{
+
     color:white;
+
     font-size:32px;
-    margin-bottom:70px;
+
     font-weight:300;
 }
 
 .color{
+
     color:#C271FF;
+
     font-weight:bold;
 }
 
 .cards{
+
     display:flex;
+
     justify-content:space-between;
+
+    align-items:flex-start;
+
     gap:30px;
+
+    margin-top:70px;
 }
 
 .card{
-    width:200px;
-    text-align:center;
+
+    width:180px;
+
     color:white;
+
+    text-align:center;
 }
 
-/* Në HTML shto class="card" edhe te 3 div-et e tjera */
+.card img{
 
-.cards > div img{
     width:150px;
+
     height:150px;
+
     border-radius:50%;
+
     object-fit:cover;
+
     margin-bottom:15px;
 }
 
-.cards h3{
+.card h3{
+
     margin-bottom:10px;
+
     font-size:18px;
+
+    font-weight:bold;
 }
 
-.cards span{
+.card span{
+
     display:block;
-    color:#d9d9d9;
+
+    color:#d8d8d8;
+
     font-style:italic;
-    line-height:1.5;
+
+    line-height:1.6;
 }
