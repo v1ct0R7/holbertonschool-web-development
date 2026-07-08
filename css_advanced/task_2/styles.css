@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.back-img{
+    min-height: 100vh;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 13%;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+header ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: #ff6b6b;
+    text-decoration: underline;
+    transition: 0.9s ease;
+}
+header{
+    text-align: center;
+}
+
+/* -----------------------------first-section-------------------- */
+
+.first-section{
+    min-height: 100vh;
+    color: white;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1{
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.hero-content p{
+    display: flex;
+    gap: 50px;
+    font-weight: bold;
+}
+
+.hero-content button{
+    margin-top: 40px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #C271FF;
+    color: white;
+    font-weight: bold;
+}
+
+.pros{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.color{
+    color: #C271FF;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.card{
+    width: 180px;
+    text-align: center;
+}
+
+.card img{
+    width: 150px;
+    border-radius: 50%;
+}
