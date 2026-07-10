@@ -1,6 +1,7 @@
 .forth-section {
   background-color: #071629;
-  height: 502px;
+  width: 100%;
+  height: 593px;
 }
 
 .forth-section h1 {
@@ -22,7 +23,8 @@
   font-weight: bold;
 }
 .four-part {
-  margin-bottom: 70px;
+  width: 800px;
+  margin: 0 auto;
 }
 .equal-parts {
   text-align: center;
