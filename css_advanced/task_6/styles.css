@@ -1,7 +1,12 @@
 
+.fifth-section{
+    background-color: #ffffff;
+}
+
 .fifth-section h1{
     text-align: center;
     font-size: 40px;
+    font-weight: 300;
 }
 
 .sec-faq{
@@ -17,4 +22,12 @@
 
 .inside-faq{
     width: 300px;
+}
+
+.inside-faq h2{
+    font-weight: bold;
+}
+
+.inside-faq p{
+    color:rgb(0 0 0 / 0.5);
 }
