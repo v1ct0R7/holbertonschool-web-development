@@ -1,33 +1,32 @@
-
-.fifth-section{
-    background-color: white;
+.fifth-section {
+  width: 920px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.fifth-section h1{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 300;
+.fifth-section h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
 }
 
-.sec-faq{
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-.main-faq{
-    flex-direction: column;
-    margin-left: 130px;
+.sec-faq {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
 }
 
-.inside-faq{
-    width: 300px;
+.inside-faq {
+  width: 300px;
 }
 
-.inside-faq h2{
-    font-weight: bold;
+.inside-faq h2 {
+  font-weight: bold;
 }
 
-.inside-faq p{
-    color:rgb(0 0 0 / 0.5);
+.inside-faq p {
+  color: rgb(0 0 0 / 0.5);
 }
