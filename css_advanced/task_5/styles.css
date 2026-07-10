@@ -1,26 +1,28 @@
 .forth-section {
-  background: #071629;
-  padding: 80px 0;
+  background-color: #071629;
+  height: 502px;
 }
 
 .forth-section h1 {
+  padding-top: 70px;
   text-align: center;
   font-size: 32px;
   color: white;
 }
 
-.smile-logo{
-    width: 257px;
+.smile-logo {
+  width: 257px;
 }
 
-.smile-logo img{
-    width: 43px;
-    height: 35px;
+.smile-logo img {
+  width: 43px;
+  height: 35px;
 }
-
-.forth-parts{
-    display: flex;
-    justify-content: space-evenly;
+.smile-logo h2 {
+  font-weight: bold;
+}
+.four-part {
+  margin-bottom: 70px;
 }
 .equal-parts {
   text-align: center;
@@ -45,11 +47,17 @@
 
 .forth-section button {
   display: block;
-  margin: 70px auto 0;
-  padding: 15px 30px;
+  width: 162px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px auto;
   background: #c271ff;
   color: white;
   border: none;
   border-radius: 30px;
   cursor: pointer;
+}
+.color {
+  color: #c271ff;
 }
