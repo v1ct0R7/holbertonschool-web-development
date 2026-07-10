@@ -1,0 +1,42 @@
+/* footer{
+    background-color: #071629;
+    width: 100%;
+    height: 250px;
+}
+
+.footer-cnt{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.footer-cnt img{
+    width: 170px;
+    height: 30px;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.footer-cnt > div{
+    display: inline-block;
+}
+
+.footer-cnt >div >ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-cnt div >ul >li{
+    display: inline-block;
+    width: 80px;
+}
+
+.footer-cnt div >ul >li >a{
+    text-decoration: none;
+    color: white;
+} */
+
+footer{
+    background-color: #071629;
+    width: 100%;
+    height: 250px;
+}
