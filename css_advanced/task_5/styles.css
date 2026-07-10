@@ -1,0 +1,55 @@
+.forth-section {
+  background: #071629;
+  padding: 80px 0;
+}
+
+.forth-section h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.smile-logo{
+    width: 257px;
+}
+
+.smile-logo img{
+    width: 43px;
+    height: 35px;
+}
+
+.forth-parts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.equal-parts {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.equal-parts > img {
+  width: 45px;
+}
+
+.equal-parts h2 {
+  color: white;
+  margin-top: 20px;
+}
+
+.equal-parts p {
+  color: white;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.forth-section button {
+  display: block;
+  margin: 70px auto 0;
+  padding: 15px 30px;
+  background: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
