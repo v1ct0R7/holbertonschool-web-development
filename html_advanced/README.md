@@ -1,7 +1,7 @@
 # holbertonschool-web-development
 
-In this repo we will create the structure of the web-template.
+This is the first project that I am doing with Holberton
 
-I have structure it in 3 main section.
+I have created a basic website using HTML
 
-![alt text](logo.png)
+In this project I have created the HTML structure
