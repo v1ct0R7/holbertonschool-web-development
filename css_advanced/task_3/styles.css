@@ -1,0 +1,47 @@
+/* SECTION (this is what Playwright screenshots) */
+.quote-section {
+  background-color: #c271ff;
+  width: 800px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INNER CONTAINER */
+.quote {
+  display: flex;
+  align-items: center;
+}
+
+/* IMAGE */
+.quote img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* TEXT SIDE */
+.quote-words {
+  margin-left: 40px;
+  color: white;
+}
+
+/* QUOTE */
+.quote-words blockquote {
+  margin-bottom: 15px;
+}
+
+/* AUTHOR */
+.author {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* SUBTITLE (THIS WAS FAILING) */
+.subtitle {
+  font-style: italic;
+  margin: 0;
+}

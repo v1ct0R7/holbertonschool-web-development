@@ -1,7 +1,6 @@
-# holbertonschool-web-development
+#
+In this project we are using css
+With css we style the website
+Osing css will make our website looking better
 
-In this repo we will do the design of the web-template.
-
-I have structure it in sections and now it is time to give some light to the eyes.
-
-![alt text](logo.png)
+![alt text](../../HolbertonLogo.png)
