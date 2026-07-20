@@ -70,11 +70,31 @@ header {
 }
 
 header a {
+  display: flex;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  gap: 10px;
   text-decoration: none;
   color: var(--white);
+}
+
+header img{
+  height: 30px;
+  width: auto;
+}
+
+header a span{
+font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.5px;
+width: 111.83399963378906;
+height: 12.581999778747559;
+top: 41.54px;
+left: 226.77px;
+opacity: 1;
+color:#FFFFFF;
 }
 
 /* Banner - Këtu ruhen të gjitha stilet e tua origjinale */
